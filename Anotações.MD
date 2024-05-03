@@ -21,7 +21,6 @@ Ele controla por quanto tempo o objeto vai existir após ter sido criado pelo con
 
 É definido usando o método de extensão apropriado no IserviceCollection ao registrar o serviço
 
-
 1-Transient: Uma instancia do serviço é criada a cada vez que são solicitados. Sção recomendados para servilços leves e sem estado.
 2-Scoped: Neste tempo de vida a instancia é criada a cada request. é indicado para uso web.
 3-Singleton:São criados uma vez durante a vida útil do aplicativo que usa a mesma instancia para todo o aplicativo.
@@ -35,3 +34,6 @@ IBaseRepository:
 IUnitOfWork:
 	É um conceito relacionado a coordenação das atividades de percistencia e transações.
 	
+Padrão Repositorio + Unit Of Work
+É um padrão que tem como objetivo gerenciar todas as transações dos repositorios entando a ocorencia de atualizações 
+parciais ou erros, assim garantindo a concistencia de dados.
