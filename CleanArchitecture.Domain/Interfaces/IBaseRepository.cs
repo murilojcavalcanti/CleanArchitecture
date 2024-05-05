@@ -13,6 +13,6 @@ namespace CleanArchitecture.Domain.Interfaces
         void Update(T entity);
         void Delete(T entity);
         Task<T> GetById(Guid id,CancellationToken cancellationToken);
-        Task<T> GetAll(CancellationToken cancellationToken);
+        Task<List<T>> GetAll(CancellationToken cancellationToken);
     }
 }
