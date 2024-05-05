@@ -37,12 +37,12 @@ namespace CleanArchitecture.Persistence.Repositories
            Context.Remove(entity);
         }
 
-        public Task<T> GetAll( CancellationToken cancellationToken)
+        public async Task<List<T>> GetAll( CancellationToken cancellationToken)
         {
             return await Context.Set<T>().ToListAsync(cancellationToken);
         }
 
-        public Task<T> GetById(Guid id, CancellationToken cancellationToken)
+        public async Task<T> GetById(Guid id, CancellationToken cancellationToken)
         {
             return await Context.Set<T>().FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
         }
