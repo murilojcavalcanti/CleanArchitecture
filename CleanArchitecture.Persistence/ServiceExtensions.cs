@@ -14,7 +14,8 @@ using System.Threading.Tasks;
 namespace CleanArchitecture.Persistence
 {
     //Metodo para persistencia de dados
-    //Aqui estão as configurações de persistencia de dados
+    //Aqui estão as configurações de serviços e comportamentos relacionados à aplicação.
+
      public static class ServiceExtensions
     {
         public static void ConfigurePersistanceApp(this IServiceCollection services,  IConfiguration configuration)

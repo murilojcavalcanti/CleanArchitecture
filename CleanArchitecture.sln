@@ -24,6 +24,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{8523A260-AB7B-4B39-8E0A-72187EA85A7E}"
 	ProjectSection(SolutionItems) = preProject
 		Anotações.MD = Anotações.MD
+		README.MD = README.MD
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C2307F7B-D848-42E4-84C5-2BFB866CAE21}"
+	ProjectSection(SolutionItems) = preProject
+		CleanArchitecture.Persistence\ServiceExtensions.cs = CleanArchitecture.Persistence\ServiceExtensions.cs
 	EndProjectSection
 EndProject
 Global
@@ -60,6 +66,7 @@ Global
 		{3E69AC2F-91ED-437F-94BD-E9EA6A936B11} = {47B8D3D1-9861-4FEB-AFF1-8EDC8A914B51}
 		{0F7955FE-BBA7-4D18-B5F5-A2EF701DBF52} = {38C72CF3-EC5F-4423-B0AB-AE4CC736034A}
 		{349D26FE-F437-4A1F-A2FB-D9781A5C5F1B} = {A356C358-E6C0-4EC4-9729-B93085E3511B}
+		{C2307F7B-D848-42E4-84C5-2BFB866CAE21} = {38C72CF3-EC5F-4423-B0AB-AE4CC736034A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A30C760-7CBB-4F2A-8014-2CDF76D2CD7A}
