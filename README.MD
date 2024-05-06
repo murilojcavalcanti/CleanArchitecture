@@ -1,4 +1,4 @@
-#Clean Architecture
+# Clean Architecture
 - Este projeto é um CRUD de usuarios usando o .net 8 e o SqLite como banco de dados.
 - Esse projeto tem o intuito apenas de aprendizagem, ele foi realizado com o acompanhamento das aulas do grande Macoratti, 
   onde ele ensina sobre clean architecture e CQRS.
