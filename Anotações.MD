@@ -139,3 +139,22 @@ API -> Controller			| Mediator  |					 | -> DataStore
 	Ela também é implementada pela classe QueryHandler por processar uma query específica e retornar os dados solicitados 
 	e contém a lógica para executar a consulta no sistema.
 
+	Validação Behavior: 
+- O comportamento(Behavior) do mediatR é uma caracteristica que permite adicionar lógica comum a todos ou a alguns manipuladores(handles) 
+ de requests na implementação do ccqrs com mediatr.
+
+ Ele é usado para encapsular funcionalidades que devem ser executadas antes ou depois do processamento de um request.
+
+ Pipeline Behavior
+	- É usado pra adicionar logica de processamento antes e depois de um manipulador de solicitação e permite adicionar 
+	comportamentos globais a todas as solicitações ou a um subconjunto especifico delas.
+
+Notification Handler
+	- Não retornam valores e são usadas para comunicar eventos no sistema. Os notification handlers são sado para reagir
+	  a essas notificações e executar ações especificas quando eventos ocorrem.
+
+
+
+
+Obs:
+Pesquisar sobre records
